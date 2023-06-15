@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -S -masm=intel -o "${CFILE%.c}.s" -Wall -Werror -Wextra -pedantic -std=gnu89 "$CFILE"
