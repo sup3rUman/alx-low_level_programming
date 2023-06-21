@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - Entry point
  * @void - null
  * Return: Always 0 (success)
  */
 
-int main(void)
+void print_alphabet(void)
+{
 char letter = 'a';
 
 while (letter <= 'z')
@@ -15,5 +16,4 @@ while (letter <= 'z')
 	letter++;
 	}
 	_putchar('\n');
-	return (0);
 }
